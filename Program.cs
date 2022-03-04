@@ -557,7 +557,7 @@ namespace SistemaHospital
                 try
                 {
                     StreamWriter sw = new StreamWriter("Triage.txt", append: true);
-                    sw.WriteLine(nopreferential.Head.CPF + ";" + nopreferential.Head.Triage.Sintomas + ";" + nopreferential.Head.Triage.CovidChance + ";" + preferential.Head.Triage.TempoSintomatico + ";" + nopreferential.Head.Triage.Comorbidade + ";" + nopreferential.Head.Triage.Emergencia);
+                    sw.WriteLine(nopreferential.Head.CPF + ";" + nopreferential.Head.Triage.Sintomas + ";" + nopreferential.Head.Triage.CovidChance + ";" + nopreferential.Head.Triage.TempoSintomatico + ";" + nopreferential.Head.Triage.Comorbidade + ";" + nopreferential.Head.Triage.Emergencia);
                     sw.Close();
                 }
                 catch (Exception e)
