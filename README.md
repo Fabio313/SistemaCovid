@@ -1,9 +1,9 @@
 # SistemaCovid
 
 obs:
--O sistema nao esta com tratamentos de erro(caso digite string em int ir quebra o programa);
--Quando se inicia o sistema : 
-  -caso seja um novo dia ira manter nos arquivos apenas quem esta em emergencia, lista de emergencia e o historico de pessoas com alta(nao esta apagando o resto dos arquivos
+-O sistema nao esta com tratamentos de erro(caso digite string em int ir quebra o programa);<br/>
+-Quando se inicia o sistema : <br/>
+  -caso seja um novo dia ira manter nos arquivos apenas quem esta em emergencia, lista de emergencia e o historico de pessoas com alta(nao esta apagando o resto dos arquivos<br/>
 por isso nao importe quantos dias passe caso escolha opção de mesmo dia ira receber as pessoas do primeiro dia);
   -caso nao ira voltar com todas as lista inclusive filas (exceto a fila de pessoas na lista de espera para cadastro(necessiata utilizar o menu 9));
 -Não fiz o medico alterar a situação do paciente;
